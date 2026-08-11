@@ -24,7 +24,7 @@ Duration: 3:00
 
 Google's [OpenThread](https://openthread.io/) (OT) is an open-source implementation of Thread. Google has released OpenThread to make the networking technology used in Google Nest products broadly available to developers, accelerating development of products for the connected home and commercial building applications. With a narrow platform abstraction layer and a small memory footprint, OpenThread is highly portable. It supports both system-on-chip (SoC) and network co-processor (NCP) designs.
 
-The [Thread Specification](https://www.threadgroup.org/support#specifications) defines an IPv6-based reliable, secure, and low-power wireless device-to-device communication protocol for home and commercial building applications.
+The [Thread Specification](https://threadgroup.org/resources#specifications) defines an IPv6-based reliable, secure, and low-power wireless device-to-device communication protocol for home and commercial building applications.
 
 [Texas Instruments](https://www.ti.com) has implemented OpenThread for the SimpleLink™ CC27xx device family. The [ot-ti repository](https://github.com/TexasInstruments/ot-ti) on GitHub contains the platform drivers and example applications needed to run OpenThread on Texas Instruments SimpleLink Connected MCUs. The [CC2745R10-Q1](https://www.ti.com/product/CC2745R10-Q1) is an automotive-grade (AEC-Q100 qualified), Thread-certified IEEE 802.15.4 wireless MCU from TI's SimpleLink CC27xx family.
 
@@ -168,9 +168,9 @@ Use [TI UniFlash](https://www.ti.com/tool/UNIFLASH) to flash the ELF images to t
 
 1. Open UniFlash. Connected LaunchPad boards are displayed under **Detected Devices** due to the automatic device detection feature.
 
-   ![UniFlash Detected Devices](./img/uniflash_detected_devices.png)
-
    If your board is not detected automatically, click **New Configuration**, select the `LP-EM-CC2745R10-Q1` target, and choose the XDS110 USB debug probe.
+
+   ![UniFlash Detected Devices](./img/uniflash_detected_devices.png)
 
 2. Select **Board 1** (to be flashed with `ot-rcp.out`) and click **Start**.
 
